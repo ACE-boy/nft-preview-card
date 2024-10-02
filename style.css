@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  width: auto;
+  font-size: 18px;
+  font-family: "outfit";
+  background-color: hsl(217, 54%, 11%);
+  color: hsl(0, 0%, 100%);
+}
+.container {
+  height: 600px;
+  width: 360px;
+  background-color: hsl(216, 50%, 16%);
+  transform: translate(740.25px, 159.5px);
+  padding: 30px;
+  border-radius: 20px;
+}
+.main-img img {
+  height: auto;
+  width: 300px;
+  border-radius: 15px;
+}
+.main-img h3 {
+  margin: 15px 0;
+}
+.main-img p {
+  color: hsl(215, 51%, 70%);
+  margin-bottom: 25px;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table td {
+  padding-bottom: 20px;
+  border-bottom: 1px solid #dddddd50;
+}
+.eth-icon {
+  padding-top: 5px;
+}
+table td:nth-child(2) {
+  padding-left: 5px;
+  color: hsl(178, 100%, 50%);
+}
+.clock-icon {
+  padding-top: 5px;
+  padding-left: 100px;
+}
+
+table td:nth-child(4) {
+  text-align: right;
+  color: hsl(215, 51%, 70%);
+}
+.profile-control {
+  display: flex;
+}
+.avata-img {
+  height: 40px;
+  margin-top: 20px;
+  outline-width: 2px;
+  outline-style: solid;
+  border-radius: 50%;
+}
+.profile-control p {
+  padding: 30px 20px;
+  color: hsl(215, 51%, 70%);
+  text-decoration: none;
+}
+
+.profile-control a:hover {
+  cursor: pointer;
+  color: hsl(0, 0%, 100%);
+  text-decoration: none;
+}
